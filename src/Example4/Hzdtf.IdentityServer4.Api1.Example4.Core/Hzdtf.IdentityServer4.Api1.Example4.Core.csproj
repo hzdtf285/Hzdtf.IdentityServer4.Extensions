@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Consul" Version="1.6.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Hzdtf.Consul.ConfigCenter.AspNet.Core">
+      <HintPath>..\..\Library\Hzdtf.Consul.ConfigCenter.AspNet.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Hzdtf.Consul.Extensions.AspNet.Core">
+      <HintPath>..\..\Library\Hzdtf.Consul.Extensions.AspNet.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Hzdtf.Consul.Extensions.Common.Standard">
+      <HintPath>..\..\Library\Hzdtf.Consul.Extensions.Common.Standard.dll</HintPath>
+    </Reference>
+    <Reference Include="Hzdtf.Logger.Contract.Standard">
+      <HintPath>..\..\Library\Hzdtf.Logger.Contract.Standard.dll</HintPath>
+    </Reference>
+    <Reference Include="Hzdtf.Mini.Standard">
+      <HintPath>..\..\Library\Hzdtf.Mini.Standard.dll</HintPath>
+    </Reference>
+    <Reference Include="Hzdtf.Platform.Contract.Standard">
+      <HintPath>..\..\Library\Hzdtf.Platform.Contract.Standard.dll</HintPath>
+    </Reference>
+    <Reference Include="Hzdtf.Utility.Standard">
+      <HintPath>..\..\Library\Hzdtf.Utility.Standard.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>

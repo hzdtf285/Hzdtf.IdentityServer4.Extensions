@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hzdtf.IdentityServer4.Client.Extensions.Standard</name>
+    </assembly>
+    <members>
+        <member name="T:Hzdtf.IdentityServer4.Client.Extensions.Standard.Client.IdentityServerClient">
+            <summary>
+            IdentityServer客户端
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="F:Hzdtf.IdentityServer4.Client.Extensions.Standard.Client.IdentityServerClient.configReader">
+            <summary>
+            配置读取
+            </summary>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Standard.Client.IdentityServerClient.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Standard.Client.IdentityServerClient.#ctor(Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.IIdentityServerClientConfigReader)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="configReader">配置读取</param>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Standard.Client.IdentityServerClient.GetClientCredentialsTokenAsync(System.String)">
+            <summary>
+            异步根据客户端ID获取验证客户端证书令牌
+            </summary>
+            <param name="clientId">客户端ID</param>
+            <returns>返回信息，Data为令牌</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Standard.Client.IdentityServerClient.GetClientCredentialsTokenAsync(System.Net.Http.HttpClient,System.String)">
+            <summary>
+            异步根据客户端ID获取验证客户端证书令牌
+            </summary>
+            <param name="httpClient">http客户端</param>
+            <param name="clientId">客户端ID</param>
+            <returns>返回信息，Data为令牌</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Standard.Client.IdentityServerClient.GetPasswordTokenAsync(System.String,System.String,System.String)">
+            <summary>
+            异步根据客户端ID获取验证密码令牌
+            </summary>
+            <param name="clientId">客户端ID</param>
+            <param name="username">用户名</param>
+            <param name="password">密码</param>
+            <returns>返回信息，Data为令牌</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Standard.Client.IdentityServerClient.GetPasswordTokenAsync(System.Net.Http.HttpClient,System.String,System.String,System.String)">
+            <summary>
+            异步根据客户端ID获取验证密码令牌
+            </summary>
+            <param name="httpClient">http客户端</param>
+            <param name="clientId">客户端ID</param>
+            <param name="username">用户名</param>
+            <param name="password">密码</param>
+            <returns>返回信息，Data为令牌</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Standard.Client.IdentityServerClient.RequestIdentityServer(System.Net.Http.HttpClient,System.String,System.Action{Hzdtf.Utility.Standard.Model.Return.ReturnInfo{IdentityModel.Client.TokenResponse},Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.ClientInfo,IdentityModel.Client.DiscoveryDocumentResponse})">
+            <summary>
+            请求IdentityServer
+            </summary>
+            <param name="httpClient">http客户端</param>
+            <param name="clientId">客户端ID</param>
+            <param name="successCallback">请求成功后回调</param>
+            <returns>返回令牌</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Standard.Client.IdentityServerClient.GetValiParam(Hzdtf.Utility.Standard.Model.Return.ReturnInfo{IdentityModel.Client.TokenResponse},System.String,System.String@)">
+            <summary>
+            获取并验证参数
+            </summary>
+            <param name="re">返回令牌</param>
+            <param name="clientId">客户端ID</param>
+            <param name="identityServerUrl">IdentityServer Url地址</param>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Client.Extensions.Standard.Client.IIdentityServerClient">
+            <summary>
+            IdentityServer客户端接口
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Standard.Client.IIdentityServerClient.GetClientCredentialsTokenAsync(System.String)">
+            <summary>
+            异步根据客户端ID获取验证客户端证书令牌
+            </summary>
+            <param name="clientId">客户端ID</param>
+            <returns>返回信息，Data为令牌</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Standard.Client.IIdentityServerClient.GetClientCredentialsTokenAsync(System.Net.Http.HttpClient,System.String)">
+            <summary>
+            异步根据客户端ID获取验证客户端证书令牌
+            </summary>
+            <param name="httpClient">http客户端</param>
+            <param name="clientId">客户端ID</param>
+            <returns>返回信息，Data为令牌</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Standard.Client.IIdentityServerClient.GetPasswordTokenAsync(System.String,System.String,System.String)">
+            <summary>
+            异步根据客户端ID获取验证密码令牌
+            </summary>
+            <param name="clientId">客户端ID</param>
+            <param name="username">用户名</param>
+            <param name="password">密码</param>
+            <returns>返回信息，Data为令牌</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Standard.Client.IIdentityServerClient.GetPasswordTokenAsync(System.Net.Http.HttpClient,System.String,System.String,System.String)">
+            <summary>
+            异步根据客户端ID获取验证密码令牌
+            </summary>
+            <param name="httpClient">http客户端</param>
+            <param name="clientId">客户端ID</param>
+            <param name="username">用户名</param>
+            <param name="password">密码</param>
+            <returns>返回信息，Data为令牌</returns>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.IdentityServerClientConfigJsonFile">
+            <summary>
+            IdentityServer客户端配置Json文件
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="F:Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.IdentityServerClientConfigJsonFile.clients">
+            <summary>
+            客户端信息
+            </summary>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.IdentityServerClientConfigJsonFile.#ctor(System.String)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="jsonFile">Json文件</param>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.IdentityServerClientConfigJsonFile.Reader">
+            <summary>
+            读取客户端信息
+            </summary>
+            <returns>客户端信息</returns>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.IdentityServerClientInfo">
+            <summary>
+            IdentityServer客户端信息
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.IdentityServerClientInfo.IdentityServerUrl">
+            <summary>
+            IdentityServer Url地址
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.IdentityServerClientInfo.Clients">
+            <summary>
+            客户端信息数组
+            </summary>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.IdentityServerClientInfo.GetClientById(System.String)">
+            <summary>
+            根据客户端ID获取客户端信息
+            </summary>
+            <param name="clientId">客户端ID</param>
+            <returns>客户端信息</returns>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.ClientInfo">
+            <summary>
+            客户端信息
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.ClientInfo.ClientId">
+            <summary>
+            客户端ID
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.ClientInfo.ClientSecret">
+            <summary>
+            客户端密钥
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.ClientInfo.Scopes">
+            <summary>
+            范围数组
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.ClientInfo.SaveTokens">
+            <summary>
+            保存令牌
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.ClientInfo.RequireHttpsMetadata">
+            <summary>
+            是否https是必须，默认是否
+            </summary>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Client.Extensions.Standard.Config.IIdentityServerClientConfigReader">
+            <summary>
+            IdentityServer客户端配置读取接口
+            @ 黄振东
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,52 @@
+{
+  "IdentityResources": [
+    {
+      "Type": "OpenId"
+    },
+    {
+      "Type": "Profile"
+    },
+    {
+      "Name": "name1",
+      "DisplayName": "name name1",
+      "UserClaims": [ "u1", "u2" ]
+    }
+  ],
+  "ApiScopes": [
+    {
+      "Name": "api1",
+      "DisplayName": "my api1",
+      "UserClaims`": [ "sex", "age" ]
+    }
+  ],
+  "Clients": [
+    {
+      "ClientId": "client1",
+      "ClientName": "client name1",
+      "AllowedGrantType": "ResourceOwnerPassword",
+      "ClientSecrets": [
+        {
+          "Value": "123",
+          "EncryptionType": "Sha256"
+        }
+      ],
+      "AllowedScopes": [ "openid", "api1" ]
+    }
+  ],
+  "TestUsers": [
+    {
+      "SubjectId": "1",
+      "Username": "admin",
+      "Password": "123",
+      "ProviderName": "p1",
+      "ProviderSubjectId": "10",
+      "IsActive": true,
+      "Claims": [
+        {
+          "Type": "c1",
+          "Value": "cccvalue"
+        }
+      ]
+    }
+  ]
+}

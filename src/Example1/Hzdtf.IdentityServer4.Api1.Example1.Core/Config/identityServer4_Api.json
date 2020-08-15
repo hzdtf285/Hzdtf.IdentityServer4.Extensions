@@ -1,0 +1,6 @@
+{
+  "IdentityServerUrl": "http://localhost:5000",
+  "Service": {
+    "ServiceName": "api1"
+  }
+}

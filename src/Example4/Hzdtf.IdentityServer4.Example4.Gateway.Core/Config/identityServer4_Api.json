@@ -1,0 +1,7 @@
+{
+  "IdentityServerUrl": "http://localhost:5000",
+  "AuthSchemeKey": "OcelotKey",
+  "Service": {
+    "ServiceName": "OcelotService"
+  }
+}

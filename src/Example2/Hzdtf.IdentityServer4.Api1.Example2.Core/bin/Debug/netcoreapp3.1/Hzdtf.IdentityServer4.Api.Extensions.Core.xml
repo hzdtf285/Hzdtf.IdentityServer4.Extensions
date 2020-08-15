@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hzdtf.IdentityServer4.Api.Extensions.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Hzdtf.IdentityServer4.Api.Extensions.Core.IdentityServerApiExtensions">
+            <summary>
+            IdentityServer Api扩展类库
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Api.Extensions.Core.IdentityServerApiExtensions.AddIdentityServerApi(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.String)">
+            <summary>
+            添加IdentityServer Api
+            </summary>
+            <param name="services">服务收藏</param>
+            <param name="appConfig">应用配置</param>
+            <param name="configJsonFileName">配置Json文件名</param>
+            <returns>服务收藏</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Api.Extensions.Core.IdentityServerApiExtensions.AddIdentityServerApi(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Hzdtf.IdentityServer4.Api.Extensions.Core.IdentityServerApiInfo})">
+            <summary>
+            添加IdentityServer Api
+            </summary>
+            <param name="services">服务收藏</param>
+            <param name="appConfig">应用配置</param>
+            <param name="options">IdentityServer Api配置信息回调</param>
+            <returns>服务收藏</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Api.Extensions.Core.IdentityServerApiExtensions.AddIdentityServerApi(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Hzdtf.IdentityServer4.Api.Extensions.Core.IdentityServerApiInfo)">
+            <summary>
+            添加IdentityServer Api
+            </summary>
+            <param name="services">服务收藏</param>
+            <param name="appConfig">应用配置</param>
+            <param name="config">IdentityServer Api配置信息</param>
+            <returns>服务收藏</returns>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Api.Extensions.Core.IdentityServerApiInfo">
+            <summary>
+            IdentityServer Api信息
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Api.Extensions.Core.IdentityServerApiInfo.IdentityServerUrl">
+            <summary>
+            IdentityServer Url地址
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Api.Extensions.Core.IdentityServerApiInfo.RequireHttpsMetadata">
+            <summary>
+            Https是否必须，默认为否
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Api.Extensions.Core.IdentityServerApiInfo.SaveToken">
+            <summary>
+            是否保存令牌
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Api.Extensions.Core.IdentityServerApiInfo.Service">
+            <summary>
+            服务
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Api.Extensions.Core.IdentityServerApiInfo.AuthSchemeKey">
+            <summary>
+            授权方案Key，默认为Bearer
+            </summary>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Api.Extensions.Core.ServiceInfo">
+            <summary>
+            服务信息
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Api.Extensions.Core.ServiceInfo.ServiceName">
+            <summary>
+            服务名
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Api.Extensions.Core.ServiceInfo.PolicyName">
+            <summary>
+            策略名称，默认是ApiScope
+            </summary>
+        </member>
+    </members>
+</doc>

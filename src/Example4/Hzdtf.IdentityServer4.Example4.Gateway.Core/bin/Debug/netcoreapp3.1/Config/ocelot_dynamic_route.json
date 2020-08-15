@@ -1,0 +1,23 @@
+﻿{ // 要实现动态路由，必须结合consul
+  "Routes": [], // 动态路由，这个必须为空
+  "Aggregates": [], // 动态路由，这个必须为空
+  "GlobalConfiguration": {
+    //"BaseUrl": "https://api.mybusiness.com", //如果上游有绑定域名(nginx），则设置nginx绑定的域名,
+    "ServiceDiscoveryProvider": { // 添加consul服务发现的配置
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul"
+    },
+    "LoadBalancerOptions": {
+      "Type": "RoundRobin",
+      "Key": null,
+      "Expiry": 0
+    },
+    "DownstreamScheme": "http",
+    "HttpHandlerOptions": {
+      "AllowAutoRedirect": false,
+      "UseCookieContainer": false,
+      "UseTracing": false
+    }
+  }
+}

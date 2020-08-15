@@ -1,0 +1,16 @@
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\bin\Release\netcoreapp3.1\Hzdtf.IdentityServer4.Server.Extensions.Core.deps.json
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\bin\Release\netcoreapp3.1\Hzdtf.IdentityServer4.Server.Extensions.Core.dll
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\bin\Release\netcoreapp3.1\Hzdtf.IdentityServer4.Server.Extensions.Core.pdb
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\bin\Release\netcoreapp3.1\Hzdtf.IdentityServer4.Server.Extensions.Core.xml
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\bin\Release\netcoreapp3.1\Hzdtf.Utility.Standard.dll
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\bin\Release\netcoreapp3.1\Hzdtf.Mini.Standard.dll
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\bin\Release\netcoreapp3.1\Hzdtf.Utility.Standard.pdb
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\bin\Release\netcoreapp3.1\Hzdtf.Utility.Standard.xml
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\bin\Release\netcoreapp3.1\Hzdtf.Mini.Standard.pdb
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\obj\Release\netcoreapp3.1\Hzdtf.IdentityServer4.Server.Extensions.Core.csprojAssemblyReference.cache
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\obj\Release\netcoreapp3.1\Hzdtf.IdentityServer4.Server.Extensions.Core.AssemblyInfoInputs.cache
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\obj\Release\netcoreapp3.1\Hzdtf.IdentityServer4.Server.Extensions.Core.AssemblyInfo.cs
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\obj\Release\netcoreapp3.1\Hzdtf.IdentityServer4.Server.Extensions.Core.csproj.CoreCompileInputs.cache
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\obj\Release\netcoreapp3.1\Hzdtf.IdentityServer4.Server.Extensions.Core.csproj.CopyComplete
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\obj\Release\netcoreapp3.1\Hzdtf.IdentityServer4.Server.Extensions.Core.dll
+C:\AndyData\MyProject\Hzdtf.IdentityServer4.Extensions\Core\Hzdtf.IdentityServer4.Server.Extensions.Core\obj\Release\netcoreapp3.1\Hzdtf.IdentityServer4.Server.Extensions.Core.pdb

@@ -1,0 +1,11 @@
+{
+  "IdentityServerUrl": "http://localhost:5000",
+  "Clients": [
+    {
+      "ClientId": "client1",
+      "ClientSecret": "123",
+      "Scopes": [ "api1" ],
+      "SaveTokens": true
+    }
+  ]
+}

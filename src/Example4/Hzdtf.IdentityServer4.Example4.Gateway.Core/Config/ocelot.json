@@ -1,0 +1,29 @@
+﻿{
+  "Routes": [ // 路由配置，16.X改为Routes，16以前是ReRoutes
+    {
+      "DownstreamPathTemplate": "/{path}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 6001
+        },
+        {
+          "Host": "127.0.0.1",
+          "Port": 6002
+        }
+      ],
+      "UpstreamPathTemplate": "/ServiceA/{path}",
+      "UpstreamHttpMethod": [ "Put", "Delete", "Get", "Post" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin" // LeastConnection：最小连接（最空闲），RoundRobin：轮流，NoLoadBalance：不使用，总发第1个
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "OcelotKey",
+        "AllowedScopes": [ ]
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Hzdtf.IdentityServer4.Client.Example2.Core/1.0.0": {
+        "dependencies": {
+          "Hzdtf.IdentityServer4.Client.Extensions.Standard": "1.0.0",
+          "MessagePack.Annotations": "2.1.152",
+          "Newtonsoft.Json": "12.0.1",
+          "Hzdtf.Utility.Standard": "2.0.0.0"
+        },
+        "runtime": {
+          "Hzdtf.IdentityServer4.Client.Example2.Core.dll": {}
+        }
+      },
+      "IdentityModel/4.3.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1",
+          "System.Text.Encodings.Web": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.dll": {
+            "assemblyVersion": "4.3.1.0",
+            "fileVersion": "4.3.1.0"
+          }
+        }
+      },
+      "MessagePack.Annotations/2.1.152": {
+        "runtime": {
+          "lib/netstandard2.0/MessagePack.Annotations.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.152.29568"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
+          }
+        }
+      },
+      "System.Text.Encodings.Web/4.7.0": {},
+      "Hzdtf.IdentityServer4.Client.Extensions.Standard/1.0.0": {
+        "dependencies": {
+          "IdentityModel": "4.3.1"
+        },
+        "runtime": {
+          "Hzdtf.IdentityServer4.Client.Extensions.Standard.dll": {}
+        }
+      },
+      "Hzdtf.Utility.Standard/2.0.0.0": {
+        "runtime": {
+          "Hzdtf.Utility.Standard.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Hzdtf.Mini.Standard/1.0.0.0": {
+        "runtime": {
+          "Hzdtf.Mini.Standard.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hzdtf.IdentityServer4.Client.Example2.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IdentityModel/4.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-96op5Wjw87oW5JB/FXbchK3vaYiJ5qWpWDwP739hoBfRdII7DrqqHZKpKsT/yjp4GA5ifpjAr/LW1aKQp9KkdA==",
+      "path": "identitymodel/4.3.1",
+      "hashPath": "identitymodel.4.3.1.nupkg.sha512"
+    },
+    "MessagePack.Annotations/2.1.152": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RONktDA/HA641ds/2bfOqYSVew8o8EJMcQ1P4M1J77QGgbzWiWt3nBHvCAwlx0VfO6K9S8xq4b5OLD2CUnhtCg==",
+      "path": "messagepack.annotations/2.1.152",
+      "hashPath": "messagepack.annotations.2.1.152.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IJanJWPQvya2sbGStt3Fkdy4IaomUBSadAfYWeJDQw0zclMk9ixSvMeei6cSmTTQ6ZkGIIAbhHZVCoLR7GgX7Q==",
+      "path": "system.text.encodings.web/4.7.0",
+      "hashPath": "system.text.encodings.web.4.7.0.nupkg.sha512"
+    },
+    "Hzdtf.IdentityServer4.Client.Extensions.Standard/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hzdtf.Utility.Standard/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hzdtf.Mini.Standard/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "IdentityResources": [
+    {
+      "Type": "OpenId"
+    },
+    {
+      "Type": "Profile"
+    },
+    {
+      "Name": "name1",
+      "DisplayName": "name name1",
+      "UserClaims": [ "u1", "u2" ]
+    }
+  ],
+  "ApiScopes": [
+    {
+      "Name": "api1",
+      "DisplayName": "my api1",
+      "UserClaims`": [ "sex", "age" ]
+    }
+  ],
+  "Clients": [
+    {
+      "ClientId": "client1",
+      "ClientName": "client name1",
+      "AllowedGrantType": "ClientCredentials",
+      "ClientSecrets": [
+        {
+          "Value": "123",
+          "EncryptionType": "Sha256"
+        }
+      ],
+      "AllowedScopes": [ "api1" ]
+    }
+  ]
+}

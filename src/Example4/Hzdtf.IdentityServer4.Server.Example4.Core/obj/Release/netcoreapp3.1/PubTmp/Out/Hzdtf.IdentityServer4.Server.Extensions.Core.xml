@@ -1,0 +1,554 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hzdtf.IdentityServer4.Server.Extensions.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Hzdtf.IdentityServer4.Server.Extensions.Core.DefaultProfileService">
+            <summary>
+            默认配置服务
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Server.Extensions.Core.DefaultProfileService.GetProfileDataAsync(IdentityServer4.Models.ProfileDataRequestContext)">
+            <summary>
+            异步获取配置数据
+            </summary>
+            <param name="context">配置数据请求上下文</param>
+            <returns>任务</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Server.Extensions.Core.DefaultProfileService.IsActiveAsync(IdentityServer4.Models.IsActiveContext)">
+            <summary>
+            异步是否激活
+            </summary>
+            <param name="context">激活上下文</param>
+            <returns>任务</returns>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerAuthenticationExtensions">
+            <summary>
+            IdentityServer身份认证扩展类
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerAuthenticationExtensions.AddAuthenticationCookieOidc(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Hzdtf.IdentityServer4.Server.Extensions.Core.AuthenticationCookieOidcOptions})">
+            <summary>
+            添加身份认证Cookie Oidc
+            </summary>
+            <param name="services">服务收藏</param>
+            <param name="options">身份认证Cookie Oidc选项配置回调</param>
+            <returns>身份认证生成器</returns>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Server.Extensions.Core.AuthenticationCookieOidcOptions">
+            <summary>
+            身份认证Cookie Oidc选项配置
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.AuthenticationCookieOidcOptions.Scheme">
+            <summary>
+            方案，默认是CookieAuthenticationDefaults.AuthenticationScheme（Cookies）
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.AuthenticationCookieOidcOptions.LoginPath">
+            <summary>
+            登录路径
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.AuthenticationCookieOidcOptions.LogoutPath">
+            <summary>
+            登出路径
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.AuthenticationCookieOidcOptions.AllowClaimsToClient">
+            <summary>
+            是否允许额外的证件单元输出到客户端，默认为否。如果为是，请在验证登录时，在SignIn设置Claims
+            </summary>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerExtensions">
+            <summary>
+            IdentityServer服务端扩展类
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerExtensions.AddIdentityServerInMemory(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
+            <summary>
+            添加IdentityServer服务到内存里
+            </summary>
+            <param name="services">服务收藏</param>
+            <param name="configJsonFileName">配置Json文件名</param>
+            <returns>IdentityServer生成器</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerExtensions.AddIdentityServerInMemory(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerInfo})">
+            <summary>
+            添加IdentityServer服务到内存里
+            </summary>
+            <param name="services">服务收藏</param>
+            <param name="options">IdentityServer服务端信息配置回调</param>
+            <returns>IdentityServer生成器</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerExtensions.AddIdentityServerInMemory(Microsoft.Extensions.DependencyInjection.IServiceCollection,Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerInfo)">
+            <summary>
+            添加IdentityServer服务到内存里
+            </summary>
+            <param name="services">服务收藏</param>
+            <param name="config">IdentityServer服务端信息配置</param>
+            <returns>IdentityServer生成器</returns>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerInfo">
+            <summary>
+            IdentityServer服务端信息
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerInfo.IdentityResources">
+            <summary>
+            Identity资源数组
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerInfo.ApiScopes">
+            <summary>
+            Identity资源数组
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerInfo.Clients">
+            <summary>
+            客户端数组
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerInfo.TestUsers">
+            <summary>
+            测试用户数组
+            </summary>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityResourceInfo">
+            <summary>
+            Identity资源信息
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityResourceInfo.Type">
+            <summary>
+            类型，如OpenId/Profile等，可在IdentityResources里找
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityResourceInfo.UserClaims">
+            <summary>
+            用户证件单元数组
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityResourceInfo.Required">
+            <summary>
+            是否在用户屏幕上取消选择范围，默认为否
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityResourceInfo.Emphasize">
+            <summary>
+            是否在用户屏幕上强调此范围，默认为否
+            </summary>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Server.Extensions.Core.ResourceInfo">
+            <summary>
+            资源信息
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ResourceInfo.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ResourceInfo.DisplayName">
+            <summary>
+            显示名
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ResourceInfo.Enabled">
+            <summary>
+            是否启用，默认为是
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ResourceInfo.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ResourceInfo.ShowInDiscoveryDocument">
+            <summary>
+            是否显示发现文档范围，默认为是
+            </summary>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Server.Extensions.Core.ApiScopeInfo">
+            <summary>
+            Api范围信息
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ApiScopeInfo.Required">
+            <summary>
+            是否在用户屏幕上取消选择范围，默认为否
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ApiScopeInfo.Emphasize">
+            <summary>
+            是否在用户屏幕上强调此范围，默认为否
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ApiScopeInfo.UserClaims">
+            <summary>
+            用户证件单元数组
+            </summary>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo">
+            <summary>
+            客户端信息
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.ClientId">
+            <summary>
+            客户端ID，必须
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.ClientName">
+            <summary>
+            客户端名称
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.AllowedGrantType">
+            <summary>
+            允许授权类型，默认是ClientCredentials，如Code/Implicit/ClientCredentials/ResourceOwnerPassword等，可在GrantTypes里找
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.ClientSecrets">
+            <summary>
+            客户端密钥令牌列表
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.AllowedScopes">
+            <summary>
+            允许范围数组
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.AccessTokenType">
+            <summary>
+            访问令牌类型，有Jwt/Reference，可在AccessTokenType找到
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.Enabled">
+            <summary>
+            是否启用，默认为是
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.RedirectUris">
+            <summary>
+            重定向URI数组
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.PostLogoutRedirectUris">
+            <summary>
+            登出重定向URI数组
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.RequireClientSecret">
+            <summary>
+            客户端密钥是否必须，默认为是
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.AllowedCorsOrigins">
+            <summary>
+            允许跨域的组织数组
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.AllowOfflineAccess">
+            <summary>
+            是否允许离线令牌，默认为否
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.AlwaysIncludeUserClaimsInIdToken">
+            <summary>
+            允许包含用户证件令牌到令牌
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.IdentityTokenLifetime">
+            <summary>
+            Identity令牌生命周期，单位为秒。默认为300秒
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.AllowedIdentityTokenSigningAlgorithms">
+            <summary>
+            Identity签名算法，如果为空，使用默认的算法
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.AccessTokenLifetime">
+            <summary>
+            访问令牌，单位为秒，默认为3600秒
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.AuthorizationCodeLifetime">
+            <summary>
+            授权码生命周期，单位为秒，默认为300秒
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.AbsoluteRefreshTokenLifetime">
+            <summary>
+            绝对刷新令牌生命周期，单位为秒，默认为30天
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.SlidingRefreshTokenLifetime">
+            <summary>
+            滑动刷新令牌生命周期，单位为秒，默认为15天
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.ConsentLifetime">
+            <summary>
+            用户同意生命周期，单位为秒
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.RefreshTokenUsage">
+            <summary>
+            刷新令牌方式，使用TokenUsage枚举的字符串
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.UpdateAccessTokenClaimsOnRefresh">
+            <summary>
+            访问令牌是否在刷新令牌请求上更新，默认为否
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.RefreshTokenExpiration">
+            <summary>
+            刷新令牌过期方式，使用TokenExpiration枚举字符串
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.EnableLocalLogin">
+            <summary>
+            是否启用本地登录，默认为是
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.IdentityProviderRestrictions">
+            <summary>
+            指定哪些外部idp可以与此客户端一起使用
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.IncludeJwtId">
+            <summary>
+            Jwt是否应包含标识符，默认为是
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.Claims">
+            <summary>
+            允许客户端证件单元包含在令牌中
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.AlwaysSendClientClaims">
+            <summary>
+            允许发送客户端证件单元，默认为否
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.ClientClaimsPrefix">
+            <summary>
+            客户端证件单元前辍
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.PairWiseSubjectSalt">
+            <summary>
+            设置成对的SubjectID
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.UserSsoLifetime">
+            <summary>
+            用户上次身份验证以来的最大持续时间(以秒为单位)
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.UserCodeType">
+            <summary>
+            流用户设备代码类型
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.DeviceCodeLifetime">
+            <summary>
+            设备代码生命周期
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.BackChannelLogoutSessionRequired">
+            <summary>
+            用户会话ID是否发送到登出URI，默认为是
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.ProtocolType">
+            <summary>
+            协议类型
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.ClientUri">
+            <summary>
+            客户端URI，在同意屏幕上使用
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.LogoUri">
+            <summary>
+            Logo URI
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.RequireConsent">
+            <summary>
+            是否需要同意屏幕，默认为否
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.RequirePkce">
+            <summary>
+            授权码是否需要证书密钥，默认为是
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.AllowPlainTextPkce">
+            <summary>
+            证书密钥是否可以在普通方法里发送，默认为否
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.RequireRequestObject">
+            <summary>
+            客户端是否必须对授权请求使用请求对象，默认为否
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.AllowAccessTokensViaBrowser">
+            <summary>
+            该客户端是否通过浏览器传输访问令牌，如果为否，可以防止意外泄漏访问令牌，默认为否
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.FrontChannelLogoutUri">
+            <summary>
+            客户端为基于HTTP前端通道的注销指定注销URI
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.FrontChannelLogoutSessionRequired">
+            <summary>
+            用户的会话id应该被发送到FrontChannelLogoutUri，默认为是
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo.BackChannelLogoutUri">
+            <summary>
+            客户端为基于HTTP回通道的注销指定注销URI
+            </summary>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientSecretInfo">
+            <summary>
+            客户端密钥信息
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientSecretInfo.Value">
+            <summary>
+            密钥值
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientSecretInfo.EncryptionType">
+            <summary>
+            加密类型，有Sha256和Sha512。默认为Sha256
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientSecretInfo.Expiration">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClientSecretInfo.EncryptedValue">
+            <summary>
+            加密后的值
+            </summary>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Server.Extensions.Core.TestUserInfo">
+            <summary>
+            测试用户信息
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.TestUserInfo.SubjectId">
+            <summary>
+            主题ID（IdentityServer4区分用户唯一）
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.TestUserInfo.Username">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.TestUserInfo.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.TestUserInfo.ProviderName">
+            <summary>
+            提供者名称
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.TestUserInfo.ProviderSubjectId">
+            <summary>
+            提供者主题ID
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.TestUserInfo.IsActive">
+            <summary>
+            是否激活，默认为是
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.TestUserInfo.Claims">
+            <summary>
+            证件单元信息数组
+            </summary>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Server.Extensions.Core.ClaimInfo">
+            <summary>
+            证件单元信息
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClaimInfo.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Server.Extensions.Core.ClaimInfo.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerUtil">
+            <summary>
+            IdentityServer服务端辅助类
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerUtil.ToIdentityResources(Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityResourceInfo[])">
+            <summary>
+            转换为Identity资源数组
+            </summary>
+            <param name="identityResources">Identity资源信息数组</param>
+            <returns>Identity资源数组</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerUtil.ToApiScopes(Hzdtf.IdentityServer4.Server.Extensions.Core.ApiScopeInfo[])">
+            <summary>
+            转换为Api范围数组
+            </summary>
+            <param name="apiScopes">Api范围信息数组</param>
+            <returns>Api范围数组</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerUtil.ToClients(Hzdtf.IdentityServer4.Server.Extensions.Core.ClientInfo[])">
+            <summary>
+            转换为客户端数组
+            </summary>
+            <param name="clients">客户端信息数组</param>
+            <returns>客户端数组</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Server.Extensions.Core.IdentityServerServerUtil.ToTestUsers(Hzdtf.IdentityServer4.Server.Extensions.Core.TestUserInfo[])">
+            <summary>
+            转换为测试用户列表
+            </summary>
+            <param name="testUsers">测试用户信息数组</param>
+            <returns>测试用户列表</returns>
+        </member>
+    </members>
+</doc>

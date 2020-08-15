@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hzdtf.IdentityServer4.Client.Extensions.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Hzdtf.IdentityServer4.Client.Extensions.Core.IdentityServerClientAuthenticationExtensions">
+            <summary>
+            IdentityServer客户端身份认证扩展类
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Core.IdentityServerClientAuthenticationExtensions.AddAuthenticationCookieOidc(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String)">
+            <summary>
+            添加身份认证Cookie Oidc
+            </summary>
+            <param name="services">服务收藏</param>
+            <param name="clientId">客户端ID</param>
+            <param name="jsonFile">json文件</param>
+            <returns>身份认证生成器</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Core.IdentityServerClientAuthenticationExtensions.AddAuthenticationCookieOidc(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Hzdtf.IdentityServer4.Client.Extensions.Core.AuthenticationCookieOidcOptions})">
+            <summary>
+            添加身份认证Cookie Oidc
+            </summary>
+            <param name="services">服务收藏</param>
+            <param name="options">身份认证Cookie Oidc选项配置回调</param>
+            <returns>身份认证生成器</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Core.IdentityServerClientAuthenticationExtensions.AddAuthenticationCookieOidc(Microsoft.Extensions.DependencyInjection.IServiceCollection,Hzdtf.IdentityServer4.Client.Extensions.Core.AuthenticationCookieOidcOptions)">
+            <summary>
+            添加身份认证Cookie Oidc
+            </summary>
+            <param name="services">服务收藏</param>
+            <returns>身份认证生成器</returns>
+        </member>
+        <member name="M:Hzdtf.IdentityServer4.Client.Extensions.Core.IdentityServerClientAuthenticationExtensions.UseAuthenticationCookieOidc(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            使用身份认证Cookie Oidc
+            </summary>
+            <param name="app">应用生成器</param>
+            <returns>应用生成器</returns>
+        </member>
+        <member name="T:Hzdtf.IdentityServer4.Client.Extensions.Core.AuthenticationCookieOidcOptions">
+            <summary>
+            身份认证Cookie Oidc选项配置
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Client.Extensions.Core.AuthenticationCookieOidcOptions.Scheme">
+            <summary>
+            方案，默认是CookieAuthenticationDefaults.AuthenticationScheme（Cookies）
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Client.Extensions.Core.AuthenticationCookieOidcOptions.IdentityServerUrl">
+            <summary>
+            IdentityServer Url地址
+            </summary>
+        </member>
+        <member name="P:Hzdtf.IdentityServer4.Client.Extensions.Core.AuthenticationCookieOidcOptions.Client">
+            <summary>
+            客户端信息
+            </summary>
+        </member>
+    </members>
+</doc>
