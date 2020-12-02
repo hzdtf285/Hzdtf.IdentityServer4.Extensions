@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yMNDwHcsahbvXfRVO9nyE02FDn/wFzDi04v5eLgCuOtogbmQXpv8eF1F3MUxBThB/KS+b9nsXyi5KEuHMNN/gw==",
+  "dgSpecHash": "7Qi+j8defQRnlwl5gEFaG7CqIU7jbSkdhYdV/4pJ7c53yb/Cnv+qANiCJIrHJrCcFB+O8MNKAYXBuECbUTMQ2w==",
   "success": true,
-  "projectFilePath": "C:\\AndyData\\MyProject\\Hzdtf.IdentityServer4.Extensions\\src\\Example2\\Hzdtf.IdentityServer4.Client.Example2.Core\\Hzdtf.IdentityServer4.Client.Example2.Core.csproj",
+  "projectFilePath": "D:\\MyProjects\\Hzdtf.IdentityServer4.Extensions\\src\\Example2\\Hzdtf.IdentityServer4.Client.Example2.Core\\Hzdtf.IdentityServer4.Client.Example2.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\identitymodel\\4.3.1\\identitymodel.4.3.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

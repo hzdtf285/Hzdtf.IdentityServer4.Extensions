@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6toPvGrBBI6MgHQEVDvOCEZyOBjbS6GIk8gB4DUHX2Kg2t258DkG9nzLr6OVGaVgT/Ys7AZ28FukWexABiRT2w==",
+  "dgSpecHash": "aCxDpwpW3Ahu96WCxSlYV04XuVYBeexw80OdhRAY5IUIK6RZ/gDrI16dzYwEod/pD8cYygB9sP53AvIhrh+iSg==",
   "success": true,
-  "projectFilePath": "C:\\AndyData\\MyProject\\Hzdtf.IdentityServer4.Extensions\\src\\Example3\\Hzdtf.IdentityServer4.MvcClient.Example3.Core\\Hzdtf.IdentityServer4.MvcClient.Example3.Core.csproj",
+  "projectFilePath": "D:\\MyProjects\\Hzdtf.IdentityServer4.Extensions\\src\\Example3\\Hzdtf.IdentityServer4.MvcClient.Example3.Core\\Hzdtf.IdentityServer4.MvcClient.Example3.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\identitymodel\\4.3.1\\identitymodel.4.3.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JESg02s3x1WqfFpW8z/vzspc3NS7cNZPMPtqpbH4LaU2opvZRzwe70cQbhe1aDZCXES9AWkRpwLv5Iq3Gw/HNg==",
+  "dgSpecHash": "e2Qr29OCromH7PWGeaYq+XF3nAdbJ8FjIdnoz2YTwUzuA4lz4aeS0LazsEK5QcHsIev7ge3k3GuiB7wKkXGJ9w==",
   "success": true,
-  "projectFilePath": "C:\\AndyData\\MyProject\\Hzdtf.IdentityServer4.Extensions\\src\\Core\\Hzdtf.IdentityServer4.Client.Extensions.Standard\\Hzdtf.IdentityServer4.Client.Extensions.Standard.csproj",
+  "projectFilePath": "D:\\MyProjects\\Hzdtf.IdentityServer4.Extensions\\src\\Core\\Hzdtf.IdentityServer4.Client.Extensions.Standard\\Hzdtf.IdentityServer4.Client.Extensions.Standard.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\identitymodel\\4.3.1\\identitymodel.4.3.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

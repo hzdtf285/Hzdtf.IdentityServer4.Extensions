@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cvprFiq1Lrs+7OAM/3MKJt8mSKMINtDYsyw9uMKSNAKThjrZAm7ZbxWHUGgxpLweifnqNb6LqmK+bdHrpAbV0w==",
+  "dgSpecHash": "mJxHAGIXM0Lj4ajtcIsW0BsaHT0sHAzx4M3PfaacBcvyjDOoGqyU5wqEQHlXHs0oOQcU7JgP5UBGzVfK+hfykQ==",
   "success": true,
-  "projectFilePath": "C:\\AndyData\\MyProject\\Hzdtf.IdentityServer4.Extensions\\src\\Example3\\Hzdtf.IdentityServer4.Server.Example3.Core\\Hzdtf.IdentityServer4.Server.Example3.Core.csproj",
+  "projectFilePath": "D:\\MyProjects\\Hzdtf.IdentityServer4.Extensions\\src\\Example3\\Hzdtf.IdentityServer4.Server.Example3.Core\\Hzdtf.IdentityServer4.Server.Example3.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\hei.captcha\\0.2.0\\hei.captcha.0.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\identitymodel\\4.3.0\\identitymodel.4.3.0.nupkg.sha512",

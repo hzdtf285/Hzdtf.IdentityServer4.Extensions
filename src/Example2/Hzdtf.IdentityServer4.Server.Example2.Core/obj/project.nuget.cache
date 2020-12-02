@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+pq/jjs25J4xsbsLA54AVBWkWX/bGxITGtJHCqmF93k1SXH88MZWtsuuVKqmIf5nqaMDVJx6Ftvxf9UBMfKskw==",
+  "dgSpecHash": "dCyWdSZVZHfGtyTeZduz5Te35P9ncc8kD5dEWuJzkx5qp7admt0qv4j8L6trhZgV31DLSImnx6xLMJe37TUaOw==",
   "success": true,
-  "projectFilePath": "C:\\AndyData\\MyProject\\Hzdtf.IdentityServer4.Extensions\\src\\Example2\\Hzdtf.IdentityServer4.Server.Example2.Core\\Hzdtf.IdentityServer4.Server.Example2.Core.csproj",
+  "projectFilePath": "D:\\MyProjects\\Hzdtf.IdentityServer4.Extensions\\src\\Example2\\Hzdtf.IdentityServer4.Server.Example2.Core\\Hzdtf.IdentityServer4.Server.Example2.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\identitymodel\\4.3.0\\identitymodel.4.3.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\identityserver4\\4.0.4\\identityserver4.4.0.4.nupkg.sha512",

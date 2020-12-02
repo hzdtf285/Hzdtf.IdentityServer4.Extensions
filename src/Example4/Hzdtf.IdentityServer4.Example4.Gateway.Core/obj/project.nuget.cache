@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aRZtOj2JYLCXqa94RCunPTi6BpGTJ7EDUpYrxEe2l0htOMAOEL4rs2kRMKji2BYezCbo1yaKz14h2ebdsSPrcg==",
+  "dgSpecHash": "hUp1qcVuj81Ra9xB3kfZTr/SJMLYGq30Pg3HNIrF3gaZ68qSMwIvSBGHfYxQ9ty4wQnwzaTDSyzAiBzOV3Z+Gg==",
   "success": true,
-  "projectFilePath": "C:\\AndyData\\MyProject\\Hzdtf.IdentityServer4.Extensions\\src\\Example4\\Hzdtf.IdentityServer4.Example4.Gateway.Core\\Hzdtf.IdentityServer4.Example4.Gateway.Core.csproj",
+  "projectFilePath": "D:\\MyProjects\\Hzdtf.IdentityServer4.Extensions\\src\\Example4\\Hzdtf.IdentityServer4.Example4.Gateway.Core\\Hzdtf.IdentityServer4.Example4.Gateway.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\consul\\0.7.2.6\\consul.0.7.2.6.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",

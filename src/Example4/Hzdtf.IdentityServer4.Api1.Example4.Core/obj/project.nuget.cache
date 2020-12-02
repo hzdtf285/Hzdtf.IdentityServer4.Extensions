@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ee37edi+2XAvbzfA5VaGZJ98og2TTE4f+oTco5/Jpw2w+5XyhaAkAU+5kD4CXoAor45Yf9yz4Rg/OT69ymfj2Q==",
+  "dgSpecHash": "H9O4Ou/mIysDkVT5sS9fUDheJgL43NPTmakeZQDlvZHlrd3Zrn8dPculZ+R+0X2nuCV8sx6rYwccM37FF7vSDw==",
   "success": true,
-  "projectFilePath": "C:\\AndyData\\MyProject\\Hzdtf.IdentityServer4.Extensions\\src\\Example4\\Hzdtf.IdentityServer4.Api1.Example4.Core\\Hzdtf.IdentityServer4.Api1.Example4.Core.csproj",
+  "projectFilePath": "D:\\MyProjects\\Hzdtf.IdentityServer4.Extensions\\src\\Example4\\Hzdtf.IdentityServer4.Api1.Example4.Core\\Hzdtf.IdentityServer4.Api1.Example4.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
