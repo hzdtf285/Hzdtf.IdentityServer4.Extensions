@@ -6447,19 +6447,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\huangzd\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyProjects\\Hzdtf.IdentityServer4.Extensions\\src\\Example4\\Hzdtf.IdentityServer4.Example4.Gateway.Core\\Hzdtf.IdentityServer4.Example4.Gateway.Core.csproj",
+      "projectUniqueName": "F:\\MyWorks\\net2\\Hzdtf.IdentityServer4.Extensions\\src\\Example4\\Hzdtf.IdentityServer4.Example4.Gateway.Core\\Hzdtf.IdentityServer4.Example4.Gateway.Core.csproj",
       "projectName": "Hzdtf.IdentityServer4.Example4.Gateway.Core",
-      "projectPath": "D:\\MyProjects\\Hzdtf.IdentityServer4.Extensions\\src\\Example4\\Hzdtf.IdentityServer4.Example4.Gateway.Core\\Hzdtf.IdentityServer4.Example4.Gateway.Core.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\MyProjects\\Hzdtf.IdentityServer4.Extensions\\src\\Example4\\Hzdtf.IdentityServer4.Example4.Gateway.Core\\obj\\",
+      "projectPath": "F:\\MyWorks\\net2\\Hzdtf.IdentityServer4.Extensions\\src\\Example4\\Hzdtf.IdentityServer4.Example4.Gateway.Core\\Hzdtf.IdentityServer4.Example4.Gateway.Core.csproj",
+      "packagesPath": "C:\\Users\\huangzd\\.nuget\\packages\\",
+      "outputPath": "F:\\MyWorks\\net2\\Hzdtf.IdentityServer4.Extensions\\src\\Example4\\Hzdtf.IdentityServer4.Example4.Gateway.Core\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\huangzd\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6472,8 +6476,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\MyProjects\\Hzdtf.IdentityServer4.Extensions\\src\\Core\\Hzdtf.IdentityServer4.Api.Extensions.Core\\Hzdtf.IdentityServer4.Api.Extensions.Core.csproj": {
-              "projectPath": "D:\\MyProjects\\Hzdtf.IdentityServer4.Extensions\\src\\Core\\Hzdtf.IdentityServer4.Api.Extensions.Core\\Hzdtf.IdentityServer4.Api.Extensions.Core.csproj"
+            "F:\\MyWorks\\net2\\Hzdtf.IdentityServer4.Extensions\\src\\Core\\Hzdtf.IdentityServer4.Api.Extensions.Core\\Hzdtf.IdentityServer4.Api.Extensions.Core.csproj": {
+              "projectPath": "F:\\MyWorks\\net2\\Hzdtf.IdentityServer4.Extensions\\src\\Core\\Hzdtf.IdentityServer4.Api.Extensions.Core\\Hzdtf.IdentityServer4.Api.Extensions.Core.csproj"
             }
           }
         }

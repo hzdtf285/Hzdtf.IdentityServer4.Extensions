@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7Qi+j8defQRnlwl5gEFaG7CqIU7jbSkdhYdV/4pJ7c53yb/Cnv+qANiCJIrHJrCcFB+O8MNKAYXBuECbUTMQ2w==",
+  "dgSpecHash": "bLyOLmdb954fYm5pFUskkcGQXeNKCryZcJddvK0BhsZD2A/MeY4rJoEs/1Ck34jvn+9mdwKjYdhwAn69UhpeyA==",
   "success": true,
-  "projectFilePath": "D:\\MyProjects\\Hzdtf.IdentityServer4.Extensions\\src\\Example2\\Hzdtf.IdentityServer4.Client.Example2.Core\\Hzdtf.IdentityServer4.Client.Example2.Core.csproj",
+  "projectFilePath": "F:\\MyWorks\\net2\\Hzdtf.IdentityServer4.Extensions\\src\\Example2\\Hzdtf.IdentityServer4.Client.Example2.Core\\Hzdtf.IdentityServer4.Client.Example2.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\admin\\.nuget\\packages\\identitymodel\\4.3.1\\identitymodel.4.3.1.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512"
+    "C:\\Users\\huangzd\\.nuget\\packages\\identitymodel\\4.3.1\\identitymodel.4.3.1.nupkg.sha512",
+    "C:\\Users\\huangzd\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
+    "C:\\Users\\huangzd\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\huangzd\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
