@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cRz6FPsYFxn538ur/1z1rRDtZJbICP+jK9oFD0n6bPJ0l4pkQGBUAkIlZLGcb8rvzT1H8mLMhyKasDc+FwPGqA==",
+  "dgSpecHash": "hQbmF9Fwd2hzTPKbi++dBG6GLCpR+muDl6k5OPHDm/vFJkQKr6HALakhIec0HI/E60K9SFwELgl6GT9QsaASHQ==",
   "success": true,
   "projectFilePath": "F:\\MyWorks\\net2\\Hzdtf.IdentityServer4.Extensions\\src\\Example1\\Hzdtf.IdentityServer4.Server.Example1.Core\\Hzdtf.IdentityServer4.Server.Example1.Core.csproj",
   "expectedPackageFiles": [

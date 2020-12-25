@@ -619,7 +619,10 @@
         },
         "runtime": {
           "bin/placeholder/Hzdtf.IdentityServer4.Client.Extensions.Core.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Hzdtf.IdentityServer4.Client.Extensions.Standard/1.0.0": {
         "type": "project",
@@ -1662,7 +1665,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.cdn.azure.cn/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
