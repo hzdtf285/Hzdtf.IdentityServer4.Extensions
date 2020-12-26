@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "hap/rDBZcwmq1ftY2ciUUDBsacW8oGQ/Au7EF/jY392g30chrnnRH1e7NTNkxnihKfz7w4mgLEB/Umm2v9nHIQ==",
+  "dgSpecHash": "lHyhJ8Pb9U2nYG3/2As/3kDk6F1fIOXEHn4jZcet1/KcD7xrc+OAjG/crjIqGN9wthdHckMe+ILufNiSSgxNSg==",
   "success": true,
   "projectFilePath": "F:\\MyWorks\\net2\\Hzdtf.IdentityServer4.Extensions\\src\\Example4\\Hzdtf.IdentityServer4.Server.Example4.Core\\Hzdtf.IdentityServer4.Server.Example4.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huangzd\\.nuget\\packages\\identitymodel\\4.3.0\\identitymodel.4.3.0.nupkg.sha512",
     "C:\\Users\\huangzd\\.nuget\\packages\\identityserver4\\4.0.4\\identityserver4.4.0.4.nupkg.sha512",
     "C:\\Users\\huangzd\\.nuget\\packages\\identityserver4.storage\\4.0.4\\identityserver4.storage.4.0.4.nupkg.sha512",
-    "C:\\Users\\huangzd\\.nuget\\packages\\messagepack.annotations\\2.1.165\\messagepack.annotations.2.1.165.nupkg.sha512",
+    "C:\\Users\\huangzd\\.nuget\\packages\\messagepack.annotations\\2.2.85\\messagepack.annotations.2.2.85.nupkg.sha512",
     "C:\\Users\\huangzd\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\3.1.0\\microsoft.aspnetcore.authentication.openidconnect.3.1.0.nupkg.sha512",
     "C:\\Users\\huangzd\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.6.0\\microsoft.identitymodel.jsonwebtokens.5.6.0.nupkg.sha512",
     "C:\\Users\\huangzd\\.nuget\\packages\\microsoft.identitymodel.logging\\5.6.0\\microsoft.identitymodel.logging.5.6.0.nupkg.sha512",

@@ -174,3 +174,6 @@ F:\MyWorks\net2\Hzdtf.IdentityServer4.Extensions\src\Example4\Hzdtf.IdentityServ
 F:\MyWorks\net2\Hzdtf.IdentityServer4.Extensions\src\Example4\Hzdtf.IdentityServer4.Api1.Example4.Core\obj\Debug\netcoreapp3.1\Hzdtf.IdentityServer4.Api1.Example4.Core.dll
 F:\MyWorks\net2\Hzdtf.IdentityServer4.Extensions\src\Example4\Hzdtf.IdentityServer4.Api1.Example4.Core\obj\Debug\netcoreapp3.1\Hzdtf.IdentityServer4.Api1.Example4.Core.pdb
 F:\MyWorks\net2\Hzdtf.IdentityServer4.Extensions\src\Example4\Hzdtf.IdentityServer4.Api1.Example4.Core\obj\Debug\netcoreapp3.1\Hzdtf.IdentityServer4.Api1.Example4.Core.genruntimeconfig.cache
+F:\MyWorks\net2\Hzdtf.IdentityServer4.Extensions\src\Example4\Hzdtf.IdentityServer4.Api1.Example4.Core\bin\Debug\netcoreapp3.1\Hzdtf.Utility.AspNet.Core.dll
+F:\MyWorks\net2\Hzdtf.IdentityServer4.Extensions\src\Example4\Hzdtf.IdentityServer4.Api1.Example4.Core\bin\Debug\netcoreapp3.1\Hzdtf.Utility.AspNet.Core.pdb
+F:\MyWorks\net2\Hzdtf.IdentityServer4.Extensions\src\Example4\Hzdtf.IdentityServer4.Api1.Example4.Core\bin\Debug\netcoreapp3.1\Hzdtf.Utility.AspNet.Core.xml

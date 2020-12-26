@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Hei.Captcha" Version="0.2.0" />
-    <PackageReference Include="MessagePack.Annotations" Version="2.1.152" />
+    <PackageReference Include="MessagePack.Annotations" Version="2.2.85" />
   </ItemGroup>
 
   <ItemGroup>

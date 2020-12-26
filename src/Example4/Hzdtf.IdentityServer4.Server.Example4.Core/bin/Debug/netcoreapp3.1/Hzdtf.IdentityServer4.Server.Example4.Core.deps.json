@@ -25,7 +25,7 @@
       "Hzdtf.IdentityServer4.Server.Example4.Core/1.0.0": {
         "dependencies": {
           "Hzdtf.IdentityServer4.Server.Extensions.Core": "1.0.0",
-          "MessagePack.Annotations": "2.1.165",
+          "MessagePack.Annotations": "2.2.85",
           "Hzdtf.Utility.Standard": "2.0.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -364,11 +364,11 @@
           "lib/netstandard2.0/IdentityServer4.Storage.dll": {}
         }
       },
-      "MessagePack.Annotations/2.1.165": {
+      "MessagePack.Annotations/2.2.85": {
         "runtime": {
           "lib/netstandard2.0/MessagePack.Annotations.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.165.1661"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.85.21899"
           }
         },
         "compile": {
@@ -2246,12 +2246,12 @@
       "path": "identityserver4.storage/4.0.4",
       "hashPath": "identityserver4.storage.4.0.4.nupkg.sha512"
     },
-    "MessagePack.Annotations/2.1.165": {
+    "MessagePack.Annotations/2.2.85": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Y6airh+mEVOWb+2KYRpB7Qaqts4wn58c6ltJTPqw4gwAeilw9/ce3uQzl3Qrh73AOm/+Fna0YqD+QnIjzYlPWQ==",
-      "path": "messagepack.annotations/2.1.165",
-      "hashPath": "messagepack.annotations.2.1.165.nupkg.sha512"
+      "sha512": "sha512-YptRsDCQK35K5FhmZ0LojW4t8I6DpetLfK5KG8PVY2f6h7/gdyr8f4++xdSEK/xS6XX7/GPvEpqszKVPksCsiQ==",
+      "path": "messagepack.annotations/2.2.85",
+      "hashPath": "messagepack.annotations.2.2.85.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.0": {
       "type": "package",

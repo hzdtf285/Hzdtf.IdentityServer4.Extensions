@@ -111,7 +111,7 @@
           "dependencies": {
             "MessagePack.Annotations": {
               "target": "Package",
-              "version": "[2.1.152, )"
+              "version": "[2.2.85, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

@@ -15,7 +15,7 @@
           "lib/netstandard2.0/IdentityModel.dll": {}
         }
       },
-      "MessagePack.Annotations/2.1.152": {
+      "MessagePack.Annotations/2.2.85": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/MessagePack.Annotations.dll": {}
@@ -79,17 +79,17 @@
         "lib/netstandard2.0/IdentityModel.xml"
       ]
     },
-    "MessagePack.Annotations/2.1.152": {
-      "sha512": "RONktDA/HA641ds/2bfOqYSVew8o8EJMcQ1P4M1J77QGgbzWiWt3nBHvCAwlx0VfO6K9S8xq4b5OLD2CUnhtCg==",
+    "MessagePack.Annotations/2.2.85": {
+      "sha512": "YptRsDCQK35K5FhmZ0LojW4t8I6DpetLfK5KG8PVY2f6h7/gdyr8f4++xdSEK/xS6XX7/GPvEpqszKVPksCsiQ==",
       "type": "package",
-      "path": "messagepack.annotations/2.1.152",
+      "path": "messagepack.annotations/2.2.85",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "lib/netstandard2.0/MessagePack.Annotations.dll",
         "lib/netstandard2.0/MessagePack.Annotations.xml",
-        "messagepack.annotations.2.1.152.nupkg.sha512",
+        "messagepack.annotations.2.2.85.nupkg.sha512",
         "messagepack.annotations.nuspec"
       ]
     },
@@ -162,7 +162,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Hzdtf.IdentityServer4.Client.Extensions.Standard >= 1.0.0",
-      "MessagePack.Annotations >= 2.1.152",
+      "MessagePack.Annotations >= 2.2.85",
       "Newtonsoft.Json >= 12.0.1"
     ]
   },
@@ -214,7 +214,7 @@
         "dependencies": {
           "MessagePack.Annotations": {
             "target": "Package",
-            "version": "[2.1.152, )"
+            "version": "[2.2.85, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
